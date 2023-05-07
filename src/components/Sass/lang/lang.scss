@@ -1,0 +1,43 @@
+.ar {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.en {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+.ar {
+    .red {
+        right: -1rem;
+    }
+    .tt {
+        border-right: unset;
+        border-left: .6px solid #8C8E90;
+        padding-left: 1.5rem;
+        padding-right: unset;
+    }
+    .location {
+      i {
+        margin-left: 2rem;
+        margin-right: 0;
+      }
+    }
+    .brand {
+        div {
+            right: unset;
+            left: 2rem;
+        }
+    }
+    .have a i {
+      margin-right: 0rem;
+      margin-left: 1rem;
+      color: #C69749;
+    }
+    .have h3 i {
+      margin-right: 0rem;
+      margin-left: 1rem;
+      color: #C69749;
+    }
+}

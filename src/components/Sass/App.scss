@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+@import "./components/buttons";
+@import "./components/slider";
+@import "./components/carousel";
+@import "./components/progress";
+@import "./layout/footer";
+@import "./layout/navigation";
+@import "./pages/about";
+@import "./pages/home";
+@import "./pages/projects";
+@import "./pages/services";
+@import "./pages/news";
+@import "./lang/lang.scss";
+@import "./components/form";
+@import "./components/models";
+
+
+$bgColor: #000000;
+$mainColor: #282A3A;
+$headerColor: #735F32;
+$tagsColor: #C69749;
+
+body {
+  background-color: $bgColor;
+  overflow-x: hidden;
+  font-family: 'Josefin Sans', sans-serif;
+  &::-webkit-scrollbar {
+    width: 3px;
+    background-color: transparent;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    border-radius: 0px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $tagsColor; 
+    border-radius: 0px;
+    width: 3px;
+  }
+}
+
+
+.utility {
+  background: linear-gradient(70deg, $mainColor 15%, rgba(0, 0, 0, 0.461) 100%), url('../img/z1.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column;
+  .ul {
+    background-color: $tagsColor;
+    width: 400px;
+    padding: 2rem;
+    border-radius: 16px;
+    h1 {
+      color: #FFF;
+      font-size: 45px;
+    }
+    span {
+      font-size: 18px;
+      color: #FFF;
+      i {
+        margin: 0rem 1rem;
+        color: #000;
+      }
+    }
+  }
+}
+
+.creative {
+  padding: 5rem 0;
+  h1 {
+    font-size: 160px;
+    font-weight: bold;
+    line-height: 120px;
+    font-style: italic;
+    letter-spacing: 0px;
+    font-family: 'Kalam', cursive;
+    color: #FFF;
+    span {
+      margin-right: 1rem;
+      color: $tagsColor;
+      display: inline-block;
+    }
+  }
+}
+
+.terms {
+  .card {
+    margin: 1rem 0;
+    background-color: $mainColor;
+    color: #FFF;
+    h2 {
+      color: $headerColor;
+    }
+  } 
+  .widget {
+    position: sticky;
+    top: 1rem;
+    .nav-link {
+      color: $tagsColor;
+    }
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .creative {
+      h1 {
+        font-size: 90px;
+      }
+    }
+}
+
+@media (max-width: 450px) {
+    .utility {
+      .ul {
+        width: 100%;
+      }
+    }
+    .creative {
+      h1 {
+        font-size: 40px;
+        line-height: 40px;
+      }
+    }
+}

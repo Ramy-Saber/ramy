@@ -1,0 +1,25 @@
+$bgColor: #000000;
+$mainColor: #282A3A;
+$headerColor: #735F32;
+$tagsColor: #C69749;
+$headerSize: 44px;
+$mainSize: 18px;
+
+form {
+    .form-contact {
+        background-color: transparent;
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #282A3A !important;
+        outline: none;
+        margin-top: 2rem;
+        padding: .6rem 1rem;
+        &::placeholder {
+            font-size: 18px;
+        }
+    }
+    .error {
+        color: #f00;
+        font-size: 12px;
+    }
+}

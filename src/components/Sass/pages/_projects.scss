@@ -1,0 +1,112 @@
+$bgColor: #000000;
+$mainColor: #282A3A;
+$headerColor: #735F32;
+$tagsColor: #C69749;
+$headerSize: 44px;
+$mainSize: 18px;
+
+.projects {
+    .col-lg-4:nth-of-type(3),
+    .col-lg-4:nth-of-type(6) {
+        position: relative;
+        top: 0rem;
+    }
+    button {
+        border: 1px solid $tagsColor;
+        background-color: transparent;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+        padding: .6rem 2rem;
+        color: $tagsColor;
+        &.active,
+        &:hover {
+            background-color: $tagsColor;
+            color: #FFF;
+        }
+    }
+}
+
+.single {
+    img {
+        height: 50vh;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.art {
+    background-color: $mainColor;
+    position: relative;
+    height: 500px;
+    .pro-logo { 
+        background-color: #1f212d;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 280px;
+            height: 280px;
+        }
+    }
+    .pro-des {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        height: 100%;
+        padding: 0rem 2rem 2rem 0rem;
+        h1 {
+            color: #FFF;
+            font-size: $headerSize;
+            margin-top: 0rem;
+        }
+        p {
+            color: #8C8E90;
+            font-size: 18px;
+        }
+        a {
+            color: $tagsColor;
+        }
+    }
+    
+}
+
+.web {
+    padding-top: 10rem;
+    h2 {
+        color: #FFF;
+        font-size: $headerSize;
+    }
+    p {
+        color: #8C8E90;
+        font-size: 18px;
+    }
+    a {
+        color: $tagsColor;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .art {
+        padding: 5rem 0;
+        height: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .art {
+        padding: 5rem 0;
+        height: 100%;
+        .pro-logo {
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+}

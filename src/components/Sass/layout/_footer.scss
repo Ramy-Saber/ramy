@@ -1,0 +1,106 @@
+$bgColor: #000000;
+$mainColor: #282A3A;
+$headerColor: #735F32;
+$tagsColor: #C69749;
+$headerSize: 44px;
+$mainSize: 18px;
+
+
+.footer {
+    background-color: $mainColor;
+    padding: 3rem 0 0 0;
+    border-radius:  65px 65px 0px 0px;
+    img {
+        width: 200px;
+        height: 80px;
+        margin-bottom: 3rem;
+    }
+    p {
+        font-size: $mainSize;
+        color: #8C8E90;
+        margin-bottom: 1.5rem;
+    }
+    h3 {
+        color: #FFF;
+        font-size: 28px;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            margin-bottom: 1rem;
+            a {
+                color: $tagsColor;
+                text-decoration: none;
+                font-size: 18px;
+            }
+        }
+    }
+    .tt {
+        border-right: .6px solid #8C8E90;
+        padding-right: 1.5rem;
+    }
+    .copyRight {
+        border-top: .6px solid #8C8E90;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+        p {
+            color: #000000;
+            margin: 0;
+            a {
+                text-decoration: none;
+                strong {
+                    color: #C69749;
+                }
+            }
+        }
+    }
+    .social {
+        display: flex;
+        margin-top: 2rem;
+        a {
+            margin-right: 1rem;
+            font-size: 26px;
+            border: 1px solid $tagsColor;
+            padding: .6rem;
+            transition: all .3s;
+            &:hover {
+                background-color: $tagsColor;
+                color: #FFF;
+                transition: all .3s;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        border-radius: 0px;
+        img {
+            width: 120px !important;
+            height: 80px;
+        }
+        .copyRight {
+            border-top: none;
+            display: block;
+            text-align: center;
+            p {
+                margin-bottom: 1rem;
+            }
+        }
+        .social {
+            margin-top: 3rem;
+            justify-content: center;
+        }
+        .tt {
+            border: none !important;
+            padding: 0;
+        }
+    }
+    
+}

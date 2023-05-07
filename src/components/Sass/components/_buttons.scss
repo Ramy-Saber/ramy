@@ -1,0 +1,154 @@
+$bgColor: #000000;
+$mainColor: #282A3A;
+$headerColor: #735F32;
+$tagsColor: #C69749;
+
+
+.more {
+    text-decoration: none;
+    color: $tagsColor;
+    font-size: 18px;
+    letter-spacing: 5px;
+    border: 1px solid $tagsColor;
+    padding: 1rem 2.5rem;
+    margin-top: 2rem;
+    transition: all .3s;
+    &:hover {
+        color: #FFF;
+        background-color: $tagsColor;
+        transition: all .3s;
+    }
+}
+
+.VIEW_MORE {
+    text-decoration: none !important;
+    background-color: transparent !important;
+    font-weight: bold;
+    color: #FFF!important;
+    font-size: 18px;
+    letter-spacing: 5px;
+    border: 1px solid #FFF;
+    padding: 1rem 2.5rem;
+    margin-top: 2rem;
+    transition: all .3s;
+    &:hover {
+        color: #FFF;
+        background-color: $tagsColor;
+        transition: all .3s;
+    }
+}
+
+.Now {    
+    text-decoration: none !important;
+    font-weight: bold;
+    color: #FFF!important;
+    font-size: 18px;
+    letter-spacing: 5px;
+    border: 1px solid $tagsColor;
+    padding: .8rem 1.5rem;
+    border-radius: 36px;
+    background-color: $tagsColor;
+}
+
+.read {    
+    text-decoration: line-through;
+    color: #282A3A;
+    font-size: 18px;
+    font-weight: bold;
+    &:hover {
+        color: $mainColor;
+    }
+}
+
+.whatsapp {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    z-index: 99999;
+    background-color: #282A3A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: ease-in-out .5s;
+    h1 {
+        display: none;
+    }
+    i {
+        width: 60px;
+        height: 60px;
+        background-color: #C69749;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 26px;
+        font-weight: bold;
+        color: #FFF;
+        animation: pulse 1s ease-in-out infinite alternate;
+    }
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    0% {
+        transform: scale(1);
+    }
+}
+
+
+.messenger {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 7.5rem;
+    left: 1.5rem;
+    z-index: 99999;
+    background-color: #282A3A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    h1 {
+        display: none;
+    }
+    i {
+        width: 60px;
+        height: 60px;
+        background-color: #C69749;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 26px;
+        font-weight: bold;
+        color: #FFF;
+        animation: pulse 1s ease-in-out infinite alternate;
+    }
+}
+
+@media (max-width: 991px) {
+    .Now {
+        padding: .8rem .5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Now {
+        padding: .8rem 1.5rem;
+    }
+}
