@@ -7,12 +7,12 @@ import { Pagination, Navigation } from "swiper";
 import { useTranslation } from "react-i18next";
 import Slide from "./Slide";
 import "../translations/i18n";
-import bg7 from "../img/57357.jpg";
-import bg8 from "../img/covertina.jpg";
-import bg9 from "../img/jaf.jpg";
-import view from "../img/designers-working-on-a-project.jpg";
-import aboutimg1 from "../img/sei-49T0rSuc2Gg-unsplash.jpg";
-import aboutimg2 from "../img/rumman-amin-3DZplIxvyh4-unsplash.jpg";
+import bg7 from "../img/home6.jpeg";
+import bg8 from "../img/home5.jpeg";
+import bg9 from "../img/home7.jpeg";
+import view from "../img/home1.jpeg";
+import aboutimg1 from "../img/about1.jpeg";
+import aboutimg2 from "../img/about2.jpeg";
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import CountUp from 'react-countup';
@@ -103,9 +103,18 @@ function Home() {
             <div className="row">
               <div className="col-md-6">
                 <div className="company">
-                  <span className="about_company">{t("about_company")}</span>
+                  <span className="about_company text-center">{t("about_company")}</span>
                   <h1 className="about_header">{t("about_header")}</h1>
-                  <p className="about_description">{t("about_description")}</p>
+                  <h2>نقدم جزيل  الشكر و التقدير لسعادة الاستاذ الدكتور </h2>
+                      <ul>
+                        <li>{t("m1")}</li>
+                        <h2> و لجميع الساده الاعضاء هيئه التدريس</h2>
+                        <li>{t("m2")}</li>
+                        <li>{t("m3")}</li>
+                        <li>{t("m4")}</li>
+                        <li>{t("m5")}</li>
+                      </ul>
+                  {/* <p className="about_description">{t("about_description")}</p> */}
                   <div className="about-img">
                     <img src={aboutimg1} alt="" />
                     {/* <div className="red"><span>3+ <br/><strong className="about_Experience">{t("about_Experience")}</strong></span></div> */}
@@ -119,17 +128,17 @@ function Home() {
                   </div>
                   <div className="trust">
                     <div>
-                      <h1 className="Team"><i className="fa fa-seal-exclamation"></i>{t("Team")}</h1>
+                      {/* <h1 className="Team"><i className="fa fa-seal-exclamation"></i>{t("Team")}</h1> */}
                       <p className="team_description">{t("team_description")}</p>
                     </div>
-                    <div>
+                    {/* <div>
                       <h1 className="Company"><i className="fa fa-users-medical"></i>{t("Company")}</h1>
                       <p className="Company_description">{t("Company_description")}</p>
-                    </div>
+                    </div> */}
                   </div>
-                  <div className="about-link">
+                  {/* <div className="about-link">
                     <Link className="more LEAREN_MORE" to="/about">{t("LEAREN_MORE")}</Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -166,7 +175,7 @@ function Home() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <span className="SERVICES">{t("SERVICES")}</span>
+              {/* <span className="SERVICES">{t("SERVICES")}</span> */}
               <h1 className="Best_Services">{t("Best_Services")}</h1>
               <p className="Services_description">{t("Services_description")}</p>
             </div>
@@ -175,13 +184,13 @@ function Home() {
                 <i className="fa-solid fa-lightbulb"></i>
                 <h1 className="Business">{t("Business")}</h1>
                 <p className="Business_description">{t("Business_description")}</p>
-                <Link to="/Services" className="LEAREN_MORE">{t("LEAREN_MORE")}</Link>
+                {/* <Link to="/Services" className="LEAREN_MORE">{t("LEAREN_MORE")}</Link> */}
               </div>
               <div className="best">
                 <i className="fa-solid fa-chalkboard-user"></i>
                 <h1 className="Branding">{t("Branding")}</h1>
                 <p className="Branding_description">{t("Branding_description")}</p>
-                <Link to="/Services" className="LEAREN_MORE">{t("LEAREN_MORE")}</Link>
+                {/* <Link to="/Services" className="LEAREN_MORE">{t("LEAREN_MORE")}</Link> */}
               </div>
             </div>
             <div className="col-lg-4 col-md-6 top">
@@ -189,13 +198,13 @@ function Home() {
                 <i className="fa-solid fa-bars-progress"></i>
                 <h1 className="Strategy">{t("Strategy")}</h1>
                 <p className="Strategy_description">{t("Strategy_description")}</p>
-                <Link to="/Services" className="LEAREN_MORE">{t("LEAREN_MORE")}</Link>
+                {/* <Link to="/Services" className="LEAREN_MORE">{t("LEAREN_MORE")}</Link> */}
               </div>
               <div className="best view">
                 <img src={view} alt="" />
                 <div>
                   <p className="Know">{t("Know")}</p>
-                  <Link to="/Services" className="VIEW_MORE">{t("VIEW_MORE")}</Link>
+                  {/* <Link to="/Services" className="VIEW_MORE">{t("VIEW_MORE")}</Link> */}
                 </div>
               </div>
             </div>
@@ -204,13 +213,13 @@ function Home() {
                 <i className="fa-solid fa-chalkboard-user"></i>
                 <h1 className="Planning">{t("Planning")}</h1>
                 <p className="Planning_description">{t("Planning_description")}</p>
-                <Link to="/Services" className="LEAREN_MORE">{t("LEAREN_MORE")}</Link>
+                {/* <Link to="/Services" className="LEAREN_MORE">{t("LEAREN_MORE")}</Link> */}
               </div>
               <div className="best">
                 <i className="fa-solid fa-bars-progress"></i>
                 <h1 className="Risk">{t("Risk")}</h1>
                 <p className="Risk_description">{t("Risk_description")}</p>
-                <Link to="/Services" className="LEAREN_MORE">{t("LEAREN_MORE")}</Link>
+                {/* <Link to="/Services" className="LEAREN_MORE">{t("LEAREN_MORE")}</Link> */}
               </div>
             </div>
           </div>
@@ -221,7 +230,7 @@ function Home() {
           <div className="our">
             <div>
               <span className="TESTIMONIAL">{t("TESTIMONIAL")}</span>
-              <h1 className="Said">{t("Said")}</h1>
+              <h1 className="Said mb-5"></h1>
             </div>
             <Slide /> 
           </div>
@@ -238,18 +247,6 @@ function Home() {
                       <p>{i18n.language === "en"
                                 ? x.description
                                 : x.description_ar}</p>
-                      <div className="quote">
-                        <div className="qu">
-                          <img src={x.src} alt="" />
-                          <div>
-                            <h1>{i18n.language === "en"
-                                  ? x.name
-                                  : x.name_ar}</h1>
-                            <span>Client</span>
-                          </div>
-                        </div>
-                        <i className="fa-solid fa-quote-right"></i>
-                      </div>
                     </div>
                   </SwiperSlide>
                 ))}
@@ -280,7 +277,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="projects">
+      {/* <div className="projects">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -305,16 +302,16 @@ function Home() {
               </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="request">
         <div>
-          <span className="">{t("REQUEST")}</span>
+          {/* <span className="">{t("REQUEST")}</span> */}
           <h1>{t("REQUEST_header")}</h1>
           <p>{t("REQUEST_description")}</p>
-          <Link className="VIEW_MORE" to="/Services">{t("REQUEST_link")}</Link>
+          {/* <Link className="VIEW_MORE" to="/Services">{t("REQUEST_link")}</Link> */}
         </div>
       </div>
-      <div className="blog en">
+      {/* <div className="blog en">
         <div className="container">
           <div className="row">
             <div className="col-md-4">
@@ -348,19 +345,19 @@ function Home() {
               </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="team">
         <div className="container">
           <div className="row">
               <div className="col-md-12">
-                <span>{t("Team")}</span>
-                <h1>{t("Team_header")}</h1>
-                <p>{t("Team_des")}</p>
+                {/* <span>{t("Team")}</span> */}
+                <h1>{t("Team")}</h1>
+                {/* <p>{t("Team_des")}</p> */}
               </div>
               {Team.map((x, index) => (
                 <div className="col-md-4" key={index}>
-                  <div className="team-div" style={{ backgroundImage: `url(${x.src})` }}>
-                    <div className="media">
+                  <div className="team-div" >
+                    {/* <div className="media">
                       <a href={x.facebook} target="_blank" >
                         <i className="fab fa-facebook-f"></i>
                       </a>
@@ -370,10 +367,10 @@ function Home() {
                       <a href={x.link} target="_blank" >
                         <i className="fa-solid fa-globe"></i>
                       </a>
-                    </div>
+                    </div> */}
                     <div className="person">
                       <h1>{x.name}</h1>
-                      <span>{x.title}</span>
+                      {/* <span>{x.title}</span> */}
                     </div>
                     <div className="overlay"></div>
                   </div>
@@ -382,7 +379,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="FAQ">
+      {/* <div className="FAQ">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -426,7 +423,7 @@ function Home() {
               </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

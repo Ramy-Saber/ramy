@@ -1,35 +1,35 @@
 const counter = [
   {
     id: 1,
-    span: "Succesfull Projects",
-    span_ar: "مشاريع ناجحة",
+    span: "عدد الوفيات ",
+    span_ar: "عدد الوفيات",
     name: "Project",
-    name_ar: "مشاريع",
-    end: 196
+    name_ar: "الوفيات",
+    end: 5000000
   },
   {
     id: 2,
-    span: "Years Experience",
-    span_ar: "سنوات خبرة",
-    name: "Years",
-    name_ar: "سنوات",
-    end: 3
+    span: "عدد الوفيات المصريه",
+    span_ar: "عدد الوفيات المصريه",
+    name: "الوفيات",
+    name_ar: "الوفيات",
+    end: 70000
   },
   {
     id: 3,
-    span: "Winning Awards",
-    span_ar: "الفوز بجوائز",
-    name: "Awards",
-    name_ar: "جوائز",
-    end: 16
+    span: "مصابين الفشل الكلوي",
+    span_ar: "مصابين الفشل الكلوي",
+    name: "مصابين",
+    name_ar: "مصابين",
+    end: 50000
   },
   {
     id: 4,
-    span: "Satisfied Clients",
-    span_ar: "عملاء راضون",
-    name: "Clients",
-    name_ar: "عملاء",
-    end: 145
+    span: "المعافيين",
+    span_ar: "المعافيين",
+    name: "المعافيين",
+    name_ar: "المعافيين",
+    end: 20000
   },
 ];
 

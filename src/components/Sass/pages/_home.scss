@@ -5,6 +5,18 @@ $tagsColor: #C69749;
 $headerSize: 44px;
 $mainSize: 18px;
 
+.swiper-hero .swiper-slide {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home {
+    .services .best {
+        height: 500px;
+    }
+}
+
 .about {
     height: 100vh;
     display: flex;
@@ -16,13 +28,26 @@ $mainSize: 18px;
         span {
             font-size: 22px;
             color: $headerColor;
-            letter-spacing: 5px;
+            // letter-spacing: 5px;
         }
         h1 {
             color: #FFF;
             font-size: $headerSize;
             margin-top: 1.2rem;
             margin-bottom: 1.2rem;
+        }
+        h2 {
+            color: #FFF;
+            font-size: 22px;
+            margin-top: 1.2rem;
+            margin-bottom: 1.2rem;
+        }
+        ul {
+            padding: 0;
+            li {
+                list-style: none;
+                color: #FFF;
+            }
         }
         p {
             font-size: $mainSize;
@@ -51,7 +76,7 @@ $mainSize: 18px;
                 color: #FFF;
                 font-weight: bold;
                 font-size: 16px;
-                letter-spacing: 0 !important;
+                // letter-spacing: 0 !important;
             }
         }
     }
@@ -116,7 +141,7 @@ $mainSize: 18px;
     span {
         font-size: 22px;
         color: $headerColor;
-        letter-spacing: 5px;
+        // letter-spacing: 5px;
     }
     h1 {
         color: #FFF;
@@ -131,7 +156,7 @@ $mainSize: 18px;
     span {
         font-size: 22px;
         color: $headerColor;
-        letter-spacing: 5px;
+        // letter-spacing: 5px;
     }
     h1 {
         color: #FFF;
@@ -231,7 +256,7 @@ $mainSize: 18px;
     span {
         font-size: 22px;
         color: $headerColor;
-        letter-spacing: 5px;
+        // letter-spacing: 5px;
     }
     h1 {
         color: #FFF;
@@ -240,7 +265,7 @@ $mainSize: 18px;
         margin-bottom: 1.2rem;
     }
     .test {
-        background-image: url("../../img/ursula-ott-F2jKwng4s7U-unsplash.jpg");
+        background-image: url("../../img/home2.jpeg");
         background-attachment: fixed;
         background-position: center center;
         background-size: cover;
@@ -306,7 +331,7 @@ $mainSize: 18px;
     span {
         font-size: 22px;
         color: $headerColor;
-        letter-spacing: 5px;
+        // letter-spacing: 5px;
     }
     h1 {
         color: #FFF;
@@ -361,7 +386,7 @@ $mainSize: 18px;
 }
 
 .request {
-    background-image: url("../../img/christoph-theisinger-aTD1exk7Uh8-unsplash.jpg");
+    background-image: url("../../img/z1.jpeg");
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
@@ -375,17 +400,17 @@ $mainSize: 18px;
     span {
         font-size: 22px;
         color: $headerColor;
-        letter-spacing: 5px;
+        // letter-spacing: 5px;
     }
     h1 {
-        color: #FFF;
+        color: #C69749;
         font-size: 36px;
         margin-top: 1.2rem;
         margin-bottom: 1.2rem;
     }
     p {
         font-size: $mainSize;
-        color: #8C8E90;
+        color: #000;
         margin-bottom: 1.5rem;
         width: 60%;
         margin: auto;
@@ -405,7 +430,7 @@ $mainSize: 18px;
         span {
             font-size: 22px;
             color: $headerColor;
-            letter-spacing: 5px;
+            // letter-spacing: 5px;
         }
         h1 {
             color: #FFF;
@@ -458,14 +483,15 @@ $mainSize: 18px;
 
 .team {
     text-align: center !important;
-    height: 100vh;
+    height: 100%;
+    padding: 5rem 0;
     display: flex;
     flex-flow: column;
     justify-content: center;
     span {
         font-size: 22px;
         color: $headerColor;
-        letter-spacing: 5px;
+        // letter-spacing: 5px;
     }
     h1 {
         color: #FFF;
@@ -480,8 +506,9 @@ $mainSize: 18px;
     }
     .team-div {
         background-size: cover;
-        height: 450px;
+        height: 150px;
         width: 100%;
+        margin-top: 2rem;
         background-position: center;
         position: relative;
         margin-bottom: 2rem;
@@ -561,7 +588,7 @@ $mainSize: 18px;
     span {
         font-size: 22px;
         color: $headerColor;
-        letter-spacing: 5px;
+        // letter-spacing: 5px;
     }
     h1 {
         color: #FFF;
@@ -606,7 +633,7 @@ $mainSize: 18px;
     span {
         font-size: 22px;
         color: $headerColor;
-        letter-spacing: 5px;
+        // letter-spacing: 5px;
     }
     h1 {
         color: #FFF;

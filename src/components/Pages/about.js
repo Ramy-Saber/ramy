@@ -23,11 +23,11 @@ function About() {
       <div className="solution en">
         <div className="container">
           <div className="pro">
-            <div>
+            {/* <div>
               <span>{t("about_company")}</span>
               <h1>{t("professional")}</h1>
             </div>
-            <p>{t("professional_des")}</p>
+            <p>{t("professional_des")}</p> */}
           </div>
           <div className="fast">
             <div className="best">
@@ -79,9 +79,9 @@ function About() {
             <div className="col-md-6">
               <div className="brand">
                 <img alt="" src={img} />
-                <div>
+                {/* <div>
                   <h2>{t("creating")}<br />{t("brand")}<br />{t("identity")}</h2>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-md-6">

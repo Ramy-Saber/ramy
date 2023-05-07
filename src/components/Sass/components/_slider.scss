@@ -120,7 +120,7 @@ $tagsColor: #C69749;
     .swiper {
       width: 450px;
       .swiper-slide {
-          height: 350px !important;
+          height: 300px !important;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -134,7 +134,7 @@ $tagsColor: #C69749;
           border-radius: 10px;
           position: relative;
           .quote {
-            display: flex;
+            display: none;
             justify-content: space-between;
             align-items: flex-end;
             .qu {

@@ -27,7 +27,7 @@ function App() {
 
   const handleLoading = () => {
     setIsLoading(false);
-  };
+  }; 
 
   const detectLang = () => {
     if (localStorage.getItem("lang")) {

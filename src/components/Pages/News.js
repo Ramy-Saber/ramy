@@ -27,7 +27,22 @@ function News() {
             <div className="col-md-12">
               <div className="time">
                 <span>{t("NEWS_BLOG")}</span>
-                <h1>{t("News")}</h1>
+                <p>{t("News_1")}</p>
+                <span>{t("NEWS_BLOG_1")}</span>
+                <p>{t("News_2")}</p>
+                <span>{t("NEWS_BLOG_2")}</span>
+                <p>{t("News_3")}</p>
+                <span>{t("NEWS_BLOG_3")}</span>
+                <span>{t("News_4")}</span>
+                <ul>
+                  <li>{t("News_5")}</li>
+                  <li>{t("News_6")}</li>
+                  <li>{t("News_7")}</li>
+                  <li>{t("News_8")}</li>
+                  <li>{t("News_9")}</li>
+                </ul>
+                <span>{t("NEWS_BLOG_4")}</span>
+                <p>{t("News_10")}</p>
               </div>
             </div>
             {New.map((x, index) => (

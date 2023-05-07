@@ -15,8 +15,8 @@ function Footer() {
                     <div className="tt">
                         <img alt="" src={Logo}/>
                         <p>{t("footer_des_1")}</p>
-                        <p>{t("footer_des_2")}</p>
-                        <p>{t("footer_des_3")}</p>
+                        {/* <p>{t("footer_des_2")}</p> */}
+                        {/* <p>{t("footer_des_3")}</p> */}
                     </div>
                 </div>
                 <div className="col-md-6">
@@ -26,10 +26,10 @@ function Footer() {
                             <ul>
                                 <li><Link to="/" >{t("home")}</Link></li>
                                 <li><Link to="/about" >{t("about_nav")}</Link></li>
-                                <li><Link to="/Contact" >{t("contact")}</Link></li>
-                                <li><Link to="/FAQ" >{t("FAQ")}</Link></li>
-                                <li><Link to="/Terms" >{t("terms")}</Link></li>
-                                <li><Link to="/Privacy" >{t("Privacy")}</Link></li>
+                                <li><Link to="/Services" >{t("Services")}</Link></li>
+                                <li><Link to="/News" >{t("NEWS_nav")}</Link></li>
+                                {/* <li><Link to="/Terms" >{t("terms")}</Link></li> */}
+                                {/* <li><Link to="/Privacy" >{t("Privacy")}</Link></li> */}
                             </ul>
                         </div>
                         {/* <div className="col-md-6">
