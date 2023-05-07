@@ -43,7 +43,7 @@ export const TRANSLATIONS_ar = {
   Said: "قال عملاؤنا",
   REQUEST: "طلب مجانا",
   REQUEST_header: "اسال مجرب و متسالش طبيب !",
-  REQUEST_description: "جمله مصريه ليس لها اي صحه من الاساس بالعكس هي اول الفخ اللذي يقع فيه الجميعFknow",
+  REQUEST_description: "جمله مصريه ليس لها اي صحه من الاساس بالعكس هي اول الفخ اللذي يقع فيه ",
   REQUEST_link: "حدد موعدا",
   NEWS_BLOG: "ما هو الطبيب ؟  ",
   News: "",

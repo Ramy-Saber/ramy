@@ -62,7 +62,7 @@ function About() {
           <div className="row">
             <div className="col-md-6">
               <div>
-                <h1>{t("build")}<span>{t("build_1")}</span>{t("build_2")}<span>{t("build3")}</span></h1>
+                {/* <h1>{t("build")}<span>{t("build_1")}</span>{t("build_2")}<span>{t("build3")}</span></h1> */}
                 <p>{t("build_des")}</p>
                 {/* <p>{t("build_des_1")}</p> */}
               </div>

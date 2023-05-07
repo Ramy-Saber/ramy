@@ -18,7 +18,8 @@ $mainSize: 18px;
 }
 
 .about {
-    height: 100vh;
+    height: 100%;
+    padding: 5rem 0;
     display: flex;
     flex-flow: column;
     justify-content: center;
