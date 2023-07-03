@@ -1,23 +1,23 @@
-$bgColor: #000000;
+$bgColor: #e6f4f7;
 $mainColor: #282A3A;
-$headerColor: #735F32;
-$tagsColor: #C69749;
+$headerColor: #00768f;
+$tagsColor: #00768f;
 $headerSize: 44px;
 $mainSize: 18px;
 
 
 .footer {
-    background-color: $mainColor;
+    background-color: #00768f;
     padding: 3rem 0 0 0;
     border-radius:  65px 65px 0px 0px;
     img {
-        width: 200px;
-        height: 80px;
+        width: 120px;
+        // height: 80px;
         margin-bottom: 3rem;
     }
     p {
-        font-size: $mainSize;
-        color: #8C8E90;
+        font-size: 16px;
+        color: #44d32a;
         margin-bottom: 1.5rem;
     }
     h3 {
@@ -33,7 +33,7 @@ $mainSize: 18px;
         li {
             margin-bottom: 1rem;
             a {
-                color: $tagsColor;
+                color: rgba(255, 255, 255, 0.55);
                 text-decoration: none;
                 font-size: 18px;
             }
@@ -55,7 +55,7 @@ $mainSize: 18px;
             a {
                 text-decoration: none;
                 strong {
-                    color: #C69749;
+                    color: #FFF;
                 }
             }
         }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import Logo from "../img/default-monochrome-white2.svg";
+import Logo from "../img/logo.png";
 import { useTranslation } from "react-i18next";
 import "../translations/i18n";
 // import React, { useState } from 'react';

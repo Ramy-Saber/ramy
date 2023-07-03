@@ -1,7 +1,7 @@
-$bgColor: #000000;
+$bgColor: #e6f4f7;
 $mainColor: #282A3A;
-$headerColor: #735F32;
-$tagsColor: #C69749;
+$headerColor: #00768f;
+$tagsColor: #00768f;
 $headerSize: 44px;
 $mainSize: 18px;
 
@@ -42,14 +42,14 @@ $mainSize: 18px;
         display: flex;
         width: 100%;
         .best {
-            background-color: #a68331;
+            background-color: #00778fb0;
             padding: 1.5rem;
             margin-top: 2rem;
             &:first-child {
-                background-color: #8c702e !important;
+                background-color: #00778f8a !important;
             }
             &:last-child {
-                background-color: #bb8f27 !important;
+                background-color: #00778f !important;
             }
             .smart {
                 i {
@@ -208,8 +208,8 @@ $mainSize: 18px;
             margin-bottom: 1.2rem;
         }
         p {
-            font-size: 25px;
-            color: #C69749;
+            font-size: 20px;
+            color: #8C8E90;
             margin-bottom: 1.5rem;
             width: 100%;
         }
@@ -259,7 +259,7 @@ $mainSize: 18px;
             margin-bottom: 1.2rem;
         }
         p {
-            font-size: 25px;
+            font-size: 20px;
             color: #8C8E90;
             margin-bottom: 1.5rem;
             width: 100%;

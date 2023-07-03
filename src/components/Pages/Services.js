@@ -6,8 +6,8 @@ import "../translations/i18n";
 import Service from "../Data/services";
 import i18n from "i18next";
 import img from "../img/d2.jpeg"
-import img1 from "../img/blank-billboard-advertisement-isolated-wall-background-empty-mockup-template-800x449.jpg"
-import img2 from "../img/arno-senoner-Ie8k7RgNYmU-unsplash-phvsyth074k90a980fd1yr65e6y76i7zxtv2e8lh04.jpg"
+import img1 from "../img/bg9.jpeg"
+import img2 from "../img/bg14.jpeg"
 import ContactForm from "../forms/contactForm";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -180,7 +180,7 @@ function Services() {
             <p>{t("offer_des")}</p>
             <div>
               <img src={img1} alt="" />
-              <img src={img1} alt="" />
+              <img src={img2} alt="" />
             </div>
           </div>
         </div>

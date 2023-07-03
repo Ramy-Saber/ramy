@@ -16,15 +16,15 @@
 @import "./components/models";
 
 
-$bgColor: #000000;
+$bgColor: #e6f4f7;
 $mainColor: #282A3A;
-$headerColor: #735F32;
-$tagsColor: #C69749;
+$headerColor: #00768f;
+$tagsColor: #00768f;
 
 body {
   background-color: $bgColor;
   overflow-x: hidden;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Cairo', sans-serif;
   &::-webkit-scrollbar {
     width: 3px;
     background-color: transparent;

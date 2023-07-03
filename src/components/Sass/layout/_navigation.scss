@@ -1,13 +1,14 @@
-$bgColor: #000000;
+$bgColor: #e6f4f7;
 $mainColor: #282A3A;
-$headerColor: #735F32;
-$tagsColor: #C69749;
+$headerColor: #00768f;
+$tagsColor: #00768f;
 
 .navbar {
     background-color: transparent;
     .logo-dark {
-        width: 200px;
-        height: 80px;
+        width: 120px;
+        
+        // height: 80px;
     }
     .navbar-nav {
         flex-flow: row;
@@ -21,7 +22,7 @@ $tagsColor: #C69749;
 }
 
 .nav-link {
-    color: $tagsColor !important;
+    // color: $tagsColor !important;
     font-size: 18px;
     margin: 0rem 1rem !important;
     white-space: nowrap;
@@ -100,7 +101,7 @@ $tagsColor: #C69749;
     transition: all .3s !important;
     z-index: 20 !important;
     // height: 90px !important;
-    background-color: $mainColor;
+    background-color: #00768f;
     padding: 1rem 0;
     border-radius: 0px 0 65px 65px;
 }

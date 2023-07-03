@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "../translations/i18n";
-import Logo from "../img/default-monochrome-white2.svg";
+import Logo from "../img/logo.png";
 
 function Footer() {
   const { t } = useTranslation();
