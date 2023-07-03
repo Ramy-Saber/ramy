@@ -11,8 +11,8 @@ import bg7 from "../img/bg11.jpeg";
 import bg8 from "../img/bg10.jpeg";
 import bg9 from "../img/bg13.jpeg";
 import view from "../img/bg4.jpg";
-import aboutimg1 from "../img/about1.jpeg";
-import aboutimg2 from "../img/about2.jpeg";
+import aboutimg1 from "../img/logo-div.jpeg";
+import aboutimg2 from "../img/images.png";
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import CountUp from 'react-countup';
@@ -105,12 +105,15 @@ function Home() {
                 <div className="company">
                   <span className="about_company text-center">{t("about_company")}</span>
                   <h1 className="about_header">{t("about_header")}</h1>
-                  <h2>نقدم جزيل  الشكر و التقدير لسعادة الاستاذ الدكتور </h2>
+                  <h2>نقدم شكر خاص لسعادة الاستاذ الدكتور </h2>
                       <ul>
                         <li>{t("m1")}</li>
-                        <h2> و لجميع الساده الاعضاء هيئه التدريس</h2>
+                        <h2> و لجميع الساده الاعضاء هيئه التدريس </h2>
+                        <h2>حملة توعوية للحد من الإفراط فى تناول المسكنات والمضادات الحيوية</h2>
+                        <h2> إشراف</h2>
                         <li>{t("m2")}</li>
-                        <li>{t("m3")}</li>
+                        <h2> إشراف مساعد</h2>
+                        {/* <li>{t("m3")}</li> */}
                         <li>{t("m4")}</li>
                         <li>{t("m5")}</li>
                       </ul>
